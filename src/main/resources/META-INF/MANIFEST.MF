@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Can-Set-Native-Method-Prefix: true
+Premain-Class: com.dvelopp.agenttest.Main
+Agent-Class: com.dvelopp.agenttest.Main
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
