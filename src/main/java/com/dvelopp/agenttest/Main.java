@@ -32,6 +32,7 @@ public class Main {
                 .or(ElementMatchers.nameContains("sun"))
                 .or(ElementMatchers.nameContains("jdk"))
                 .or(ElementMatchers.nameContains("java"))
+                .or(ElementMatchers.nameContains("bytebuddy"))
                 .or(ElementMatchers.nameContains("ConcurrentReferenceHashMap"))
                 .or(ElementMatchers.hasAnnotation(ElementMatchers.annotationType(ElementMatchers.nameContains("SpringBootApplication"))))
                 .type((ElementMatchers.any()))
